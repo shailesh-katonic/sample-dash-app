@@ -11,5 +11,5 @@ build(
   target_col_name="bad_loan",
   target_col_type="cat",
   host="0.0.0.0",
-  port=os.environ["PORT"]
+  port=8050,
 )
